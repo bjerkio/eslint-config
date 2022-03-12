@@ -8,7 +8,7 @@
     "access": "public"
   },
   "engines": {
-    "node": ">=14.15"
+    "node": ">=16"
   },
   "main": "index.js",
   "dependencies": {
@@ -19,15 +19,15 @@
     "eslint-plugin-eslint-comments": "^3.2.0",
     "eslint-plugin-import": "^2.23.4",
     "eslint-plugin-jest": "^24.3.6",
-    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-promise": "^5.1.0",
     "eslint-plugin-unicorn": "^34.0.1"
   },
   "devDependencies": {
-    "prettier": "^2.3.2"
+    "prettier": "^2.5.1"
   },
   "volta": {
-    "node": "14.15.0",
-    "yarn": "1.22.10"
+    "node": "16.14.0",
+    "yarn": "1.22.17"
   }
 }
