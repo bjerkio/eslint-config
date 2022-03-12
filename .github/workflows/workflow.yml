@@ -13,16 +13,16 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           release-type: node
-          package-name: create-bjerk-typescript
+          package-name: '@bjerk/eslint-config'
 
       - if: ${{ steps.release.outputs.release_created }}
         uses: actions/checkout@v3
 
       - if: ${{ steps.release.outputs.release_created }}
-        name: Use Node.js 14.x
+        name: Use Node.js 16.x
         uses: actions/setup-node@v3
         with:
-          node-version: '14.x'
+          node-version: '16.x'
           registry-url: 'https://registry.npmjs.org'
           cache: 'yarn'
 
