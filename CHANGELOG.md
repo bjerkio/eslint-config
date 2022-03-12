@@ -1,5 +1,16 @@
 # Changelog
 
+## [2.0.0](https://github.com/bjerkio/eslint-config/compare/v1.0.0...v2.0.0) (2022-03-12)
+
+
+### ⚠ BREAKING CHANGES
+
+* Drop support for node@v14
+
+### Features
+
+* Drop support for node@v14 ([4e75d6e](https://github.com/bjerkio/eslint-config/commit/4e75d6e6eb1c6e6975d0efc982cb55d1c6f17563))
+
 ## 1.0.0 (2021-08-29)
 
 
