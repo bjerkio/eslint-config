@@ -1,5 +1,12 @@
 # Changelog
 
+### [2.0.1](https://github.com/bjerkio/eslint-config/compare/v2.0.0...v2.0.1) (2022-03-12)
+
+
+### Bug Fixes
+
+* build issues ([ffaafc9](https://github.com/bjerkio/eslint-config/commit/ffaafc9414e12b23f083242a3e04b7dfe3b9c904))
+
 ## [2.0.0](https://github.com/bjerkio/eslint-config/compare/v1.0.0...v2.0.0) (2022-03-12)
 
 
