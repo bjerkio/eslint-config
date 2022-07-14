@@ -24,6 +24,7 @@ module.exports = {
       'error',
       {
         argsIgnorePattern: '^_',
+        ignoreRestSiblings: true,
         caughtErrors: 'all',
       },
     ],
