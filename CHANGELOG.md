@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.1.0](https://github.com/bjerkio/eslint-config/compare/v2.0.1...v2.1.0) (2022-07-14)
+
+
+### Features
+
+* add curly: error rule ([2c7433c](https://github.com/bjerkio/eslint-config/commit/2c7433cd77befc5a4577ad4c2190259111cd1533))
+* Add ignoreRestSibling ([11dc598](https://github.com/bjerkio/eslint-config/commit/11dc598ba30e3276e23cf1e3d76018f0dcd841af))
+
 ### [2.0.1](https://github.com/bjerkio/eslint-config/compare/v2.0.0...v2.0.1) (2022-03-12)
 
 
