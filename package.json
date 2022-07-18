@@ -21,7 +21,7 @@
     "eslint-plugin-jest": "^26.5.3",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-promise": "^6.0.0",
-    "eslint-plugin-unicorn": "^43.0.1"
+    "eslint-plugin-unicorn": "^43.0.2"
   },
   "devDependencies": {
     "prettier": "^2.7.1"
