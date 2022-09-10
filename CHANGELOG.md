@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.2.2](https://github.com/bjerkio/eslint-config/compare/v2.2.1...v2.2.2) (2022-09-10)
+
+
+### Bug Fixes
+
+* add peerDevDependencies ([537f9fe](https://github.com/bjerkio/eslint-config/commit/537f9fe7e49480d954bc15331903eec5572cbb78))
+
 ## [2.2.1](https://github.com/bjerkio/eslint-config/compare/v2.2.0...v2.2.1) (2022-09-10)
 
 
