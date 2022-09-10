@@ -33,6 +33,19 @@
     "eslint-plugin-unicorn": "^43.0.2",
     "prettier": "^2.7.1"
   },
+  "peerDevDependencies": [
+    "@typescript-eslint/eslint-plugin",
+    "@typescript-eslint/parser",
+    "eslint",
+    "eslint-config-prettier",
+    "eslint-plugin-eslint-comments",
+    "eslint-plugin-import",
+    "eslint-plugin-jest",
+    "eslint-plugin-prettier",
+    "eslint-plugin-promise",
+    "eslint-plugin-unicorn",
+    "prettier"
+  ],
   "peerDependenciesMeta": {
     "prettier": {
       "optional": true
