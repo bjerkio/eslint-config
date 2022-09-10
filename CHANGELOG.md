@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.2.0](https://github.com/bjerkio/eslint-config/compare/v2.1.0...v2.2.0) (2022-09-10)
+
+
+### Features
+
+* add deps and installation guide ([4563398](https://github.com/bjerkio/eslint-config/commit/4563398750f7cecab36ef2d6bc08110ec99301f7))
+
 ## [2.1.0](https://github.com/bjerkio/eslint-config/compare/v2.0.1...v2.1.0) (2022-07-14)
 
 
