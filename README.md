@@ -12,4 +12,11 @@ improvements – please file an issue or pull request!
 yarn add @bjerk/eslint-config
 ```
 
+If you want help installing the bunch of peerDependencies for this package,
+consider using this:
+
+```shell
+npx check-peer-dependencies
+```
+
 We often use this along with `@cobraz/prettier`, a shared Prettier config.
