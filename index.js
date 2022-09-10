@@ -3,7 +3,7 @@
  * https://github.com/runeh/typical-fetch/blob/main/.eslintrc.json
  */
 
-export default {
+module.exports = {
   extends: [
     'eslint:recommended',
     'plugin:@typescript-eslint/eslint-recommended',
