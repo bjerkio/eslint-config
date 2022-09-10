@@ -3,7 +3,7 @@
  * https://github.com/runeh/typical-fetch/blob/main/.eslintrc.json
  */
 
-module.exports = {
+export default {
   extends: [
     'eslint:recommended',
     'plugin:@typescript-eslint/eslint-recommended',
@@ -16,7 +16,7 @@ module.exports = {
   parser: '@typescript-eslint/parser',
   plugins: ['@typescript-eslint', 'jest', 'import', 'unicorn'],
   rules: {
-    'curly': 'error',
+    curly: 'error',
     '@typescript-eslint/explicit-module-boundary-types': 'warn',
     '@typescript-eslint/member-ordering': 'error',
     '@typescript-eslint/no-explicit-any': 'warn',
