@@ -8,7 +8,7 @@
   "prettier": "@cobraz/prettier",
   "devDependencies": {
     "@cobraz/prettier": "^2.0.0",
-    "@typescript-eslint/eslint-plugin": "^5.36.2",
+    "@typescript-eslint/eslint-plugin": "^5.39.0",
     "@typescript-eslint/parser": "^5.36.2",
     "eslint": "^8.23.0",
     "eslint-config-prettier": "^8.5.0",
@@ -21,7 +21,7 @@
     "prettier": "^2.7.1"
   },
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.36.2",
+    "@typescript-eslint/eslint-plugin": "^5.39.0",
     "@typescript-eslint/parser": "^5.36.2",
     "eslint": "^7.32.0 || ^8.2.0",
     "eslint-config-prettier": "^8.5.0",
