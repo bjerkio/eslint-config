@@ -20,3 +20,13 @@ npx check-peer-dependencies
 ```
 
 We often use this along with `@cobraz/prettier`, a shared Prettier config.
+
+To make all this config work, you only need to add this to `package.json`:
+
+```json
+{
+  "eslintConfig": {
+    "extends": "@bjerk/eslint-config"
+  }
+}
+```
