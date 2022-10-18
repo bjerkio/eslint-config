@@ -38,7 +38,7 @@ dependency. In our experience, we don't necessarily want to use Jest for every
 project anymore. Versions below v3 **require** `jest`, which just doesn't make
 sense to us.
 
-However, there are a few steps needed to get it working anyway:
+Here are the steps to get it working [again]:
 
 Run this in your terminal:
 
