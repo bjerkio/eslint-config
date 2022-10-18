@@ -10,11 +10,10 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     'plugin:eslint-comments/recommended',
     'plugin:promise/recommended',
-    'plugin:jest/recommended',
     'prettier',
   ],
   parser: '@typescript-eslint/parser',
-  plugins: ['@typescript-eslint', 'jest', 'import', 'unicorn'],
+  plugins: ['@typescript-eslint', 'import', 'unicorn'],
   rules: {
     curly: 'error',
     '@typescript-eslint/explicit-module-boundary-types': 'warn',
