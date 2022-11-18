@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.0.1](https://github.com/bjerkio/eslint-config/compare/v3.0.0...v3.0.1) (2022-11-18)
+
+
+### Bug Fixes
+
+* release ([8091a3b](https://github.com/bjerkio/eslint-config/commit/8091a3bc4dde751c40593bfcb9f64f5c5a7448c2))
+
 ## [3.0.0](https://github.com/bjerkio/eslint-config/compare/v2.2.2...v3.0.0) (2022-11-18)
 
 
