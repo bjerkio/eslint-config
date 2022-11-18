@@ -1,5 +1,16 @@
 # Changelog
 
+## [3.0.0](https://github.com/bjerkio/eslint-config/compare/v2.2.2...v3.0.0) (2022-11-18)
+
+
+### ⚠ BREAKING CHANGES
+
+* Remove jest eslint rules (#117)
+
+### Features
+
+* Remove jest eslint rules ([#117](https://github.com/bjerkio/eslint-config/issues/117)) ([0ef4ee1](https://github.com/bjerkio/eslint-config/commit/0ef4ee1b8e68850fe36e3ea82ae344e9887853e7))
+
 ## [2.2.2](https://github.com/bjerkio/eslint-config/compare/v2.2.1...v2.2.2) (2022-09-10)
 
 
