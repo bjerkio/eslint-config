@@ -35,8 +35,7 @@ To make all this config work, you only need to add this to `package.json`:
 
 We removed `jest`-related rules in v3, essentially making `jest` an optional
 dependency. In our experience, we don't necessarily want to use Jest for every
-project anymore. Versions below v3 **require** `jest`, which just doesn't make
-sense to us.
+project anymore. Versions below v3 **require** `jest`.
 
 Here are the steps to get it working [again]:
 
