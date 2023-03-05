@@ -1,5 +1,13 @@
 # Changelog
 
+## [3.1.0](https://github.com/bjerkio/eslint-config/compare/v3.0.1...v3.1.0) (2023-03-05)
+
+
+### Features
+
+* allow default exports for jest configs ([#191](https://github.com/bjerkio/eslint-config/issues/191)) ([f458752](https://github.com/bjerkio/eslint-config/commit/f4587523493f54235ddd9adfcb3279c4217f833f))
+* allow template literals ([#162](https://github.com/bjerkio/eslint-config/issues/162)) ([9f20d94](https://github.com/bjerkio/eslint-config/commit/9f20d94150de967a4bb9ebd4fad0bec57115fc0f))
+
 ## [3.0.1](https://github.com/bjerkio/eslint-config/compare/v3.0.0...v3.0.1) (2022-11-18)
 
 
