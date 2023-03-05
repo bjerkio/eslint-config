@@ -95,5 +95,11 @@ module.exports = {
         '@typescript-eslint/no-var-requires': 'off',
       },
     },
+    {
+      files: 'jest.config.*',
+      rules: {
+        'import/no-default-export': 'off',
+      },
+    },
   ],
 };
