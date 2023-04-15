@@ -1,5 +1,16 @@
 # Changelog
 
+## [4.0.0](https://github.com/bjerkio/eslint-config/compare/v3.1.0...v4.0.0) (2023-04-15)
+
+
+### ⚠ BREAKING CHANGES
+
+* Error when using explicit `any` ([#214](https://github.com/bjerkio/eslint-config/issues/214))
+
+### Code Refactoring
+
+* Error when using explicit `any` ([#214](https://github.com/bjerkio/eslint-config/issues/214)) ([5c13293](https://github.com/bjerkio/eslint-config/commit/5c13293b6e60ef9e72e5eee282aa0c49d5087728))
+
 ## [3.1.0](https://github.com/bjerkio/eslint-config/compare/v3.0.1...v3.1.0) (2023-03-05)
 
 
