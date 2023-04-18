@@ -19,7 +19,14 @@ consider using this:
 npx check-peer-dependencies
 ```
 
-We often use this along with `@cobraz/prettier`, a shared Prettier config.
+Or, if you're using [pnpm], you can make it install peer
+dependencies automatically:
+
+```shell
+pnpm config set auto-install-peers true
+```
+
+[pnpm]: https://pnpm.io/
 
 To make all this config work, you only need to add this to `package.json`:
 
@@ -30,6 +37,8 @@ To make all this config work, you only need to add this to `package.json`:
   }
 }
 ```
+
+Tip: We often use this along with `@cobraz/prettier`, a shared Prettier config.
 
 ## Migrate from v2?
 
