@@ -1,4 +1,4 @@
-name: Release
+name: Release Please
 on:
   push:
     branches:
@@ -11,7 +11,7 @@ jobs:
       - uses: GoogleCloudPlatform/release-please-action@v3
         id: release
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.BJERKBOT_GITHUB_TOKEN }}
           release-type: node
           package-name: '@bjerk/eslint-config'
 
