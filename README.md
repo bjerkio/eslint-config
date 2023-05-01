@@ -23,7 +23,7 @@ Or, if you're using [pnpm], you can make it install peer
 dependencies automatically:
 
 ```shell
-pnpm config set auto-install-peers true
+pnpm config set auto-install-peers true --location project
 ```
 
 [pnpm]: https://pnpm.io/
