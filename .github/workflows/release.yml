@@ -10,15 +10,19 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Use Node.js LTS
+      - name: Use Node LTS ✨
         uses: actions/setup-node@v3
         with:
           node-version: lts/*
           registry-url: https://registry.npmjs.org
           cache: yarn
 
-      - run: yarn install
+      - name: Install dependencies 📦️
+        run: yarn install --frozen-lockfile
 
-      - run: yarn publish
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+      - name: Build 🔨
+        run: yarn build
+
+      - uses: simenandre/publish-with-yarn-classic@v1
+        with:
+          npm-auth-token: ${{ secrets.NPM_TOKEN }}
