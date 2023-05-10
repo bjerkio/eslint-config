@@ -1,6 +1,6 @@
 {
   "name": "@bjerk/eslint-config",
-  "version": "4.0.0",
+  "version": "4.1.0",
   "repository": "github.com:bjerkio/eslint-config",
   "license": "Apache-2.0",
   "author": "Bjerk AS",
