@@ -13,7 +13,7 @@ jobs:
       - name: Use Node LTS ✨
         uses: actions/setup-node@v3
         with:
-          node-version: ${{ inputs.node-version }}
+          node-version: lts/*
           registry-url: https://registry.npmjs.org
           cache: yarn
 
