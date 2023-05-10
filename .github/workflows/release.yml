@@ -20,9 +20,6 @@ jobs:
       - name: Install dependencies 📦️
         run: yarn install --frozen-lockfile
 
-      - name: Build 🔨
-        run: yarn build
-
       - uses: simenandre/publish-with-yarn-classic@v1
         with:
           npm-auth-token: ${{ secrets.NPM_TOKEN }}
