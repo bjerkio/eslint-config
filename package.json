@@ -5,9 +5,8 @@
   "license": "Apache-2.0",
   "author": "Bjerk AS",
   "main": "index.js",
-  "prettier": "@cobraz/prettier",
+  "prettier": "@simenandre/prettier",
   "devDependencies": {
-    "@cobraz/prettier": "^2.0.1",
     "@typescript-eslint/eslint-plugin": "^5.59.0",
     "@typescript-eslint/parser": "^5.59.0",
     "eslint": "^8.38.0",
@@ -17,7 +16,8 @@
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-unicorn": "^47.0.0",
-    "prettier": "^2.8.7"
+    "prettier": "^2.8.7",
+    "@simenandre/prettier": "3.0.2"
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.59.0",
