@@ -52,7 +52,7 @@
     "node": ">=16"
   },
   "volta": {
-    "node": "18.16.0"
+    "node": "18.16.1"
   },
   "publishConfig": {
     "access": "public"
