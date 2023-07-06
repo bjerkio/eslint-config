@@ -1,5 +1,12 @@
 # Changelog
 
+## [4.2.0](https://github.com/bjerkio/eslint-config/compare/v4.1.0...v4.2.0) (2023-07-06)
+
+
+### Features
+
+* **deps:** update dependency prettier to v3 ([#238](https://github.com/bjerkio/eslint-config/issues/238)) ([8959828](https://github.com/bjerkio/eslint-config/commit/8959828465f0046c757a220142c9ea68f9ad80a2))
+
 ## [4.0.0](https://github.com/bjerkio/eslint-config/compare/v3.1.0...v4.0.0) (2023-04-15)
 
 
