@@ -100,10 +100,10 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@simenandre/prettier@4.0.1":
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/@simenandre/prettier/-/prettier-4.0.1.tgz#0ec2bc0a81d81e4ae0dd5bc6efa7e9408aace2ce"
-  integrity sha512-7ys2sGGqVQ1rTtjOgbgOwLDSUNRw/PiaCAWv97dE1d2VZDFxGNvn1BIQqhJrYL3jZBKAKSLH7evkzL8G6QB3ew==
+"@simenandre/prettier@4.1.0":
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/@simenandre/prettier/-/prettier-4.1.0.tgz#615b3fbd9b3badde0aadb08ff4f29a6335625419"
+  integrity sha512-pi+gR9eoM+019Tbij6idtR1ocK/NhgNHpfC0vTQ72JJy9yk224apXmrP7wsT3wr/N6xOkGpApQK84KtEtweQlg==
   dependencies:
     prettier-plugin-package-perfection "^1.1.0"
 
