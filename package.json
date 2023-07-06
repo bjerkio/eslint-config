@@ -16,7 +16,7 @@
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-unicorn": "^47.0.0",
-    "prettier": "^2.8.7",
+    "prettier": "^3.0.0",
     "@simenandre/prettier": "4.0.1"
   },
   "peerDependencies": {
@@ -29,7 +29,7 @@
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-unicorn": "^47.0.0",
-    "prettier": "^2.8.7"
+    "prettier": "^3.0.0"
   },
   "peerDevDependencies": [
     "@typescript-eslint/eslint-plugin",
