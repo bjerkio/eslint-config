@@ -1,7 +1,8 @@
 const eslintConfigTypescript = {
   extends: [
-    'plugin:@typescript-eslint/eslint-recommended',
-    'plugin:@typescript-eslint/recommended',
+    'eslint:recommended',
+    'plugin:@typescript-eslint/recommended-type-checked',
+    'plugin:@typescript-eslint/stylistic-type-checked',
   ],
   parser: '@typescript-eslint/parser',
   plugins: ['@typescript-eslint'],
@@ -39,9 +40,7 @@ const eslintConfigTypescript = {
       },
     ],
 
-    '@typescript-eslint/no-explicit-any': 'error',
     '@typescript-eslint/no-unused-expressions': 'error',
-    '@typescript-eslint/prefer-optional-chain': 'error',
     '@typescript-eslint/prefer-ts-expect-error': 'error',
   },
   overrides: [
@@ -53,6 +52,10 @@ const eslintConfigTypescript = {
         '@typescript-eslint/no-unused-vars': 'off',
         '@typescript-eslint/no-var-requires': 'off',
       },
+    },
+    {
+      files: ['*.js'],
+      extends: ['plugin:@typescript-eslint/disable-type-checked'],
     },
   ],
 };
