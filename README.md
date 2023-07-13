@@ -22,13 +22,16 @@ pnpm config set auto-install-peers true --location project
 
 [pnpm]: https://pnpm.io/
 
-To make all this config work, you only need to add this to `package.json`:
+To make all this config work, you only need to add this to your Eslint
+configuration:
 
 ```json
-{
-  "eslintConfig": {
-    "extends": "@bjerk/eslint-config"
-  }
+module.exports = {
+  extends: "@bjerk/eslint-config",
+  parserOptions: {
+    project: true,
+    tsconfigRootDir: __dirname,
+  },
 }
 ```
 
