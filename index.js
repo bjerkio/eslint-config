@@ -1,9 +1,4 @@
-/**
- * This eslint config is derived work from @runeh and Indiv AS:
- * https://github.com/runeh/typical-fetch/blob/main/.eslintrc.json
- */
-
-module.exports = {
+const eslintConfig = {
   extends: [
     'eslint:recommended',
     'plugin:@typescript-eslint/eslint-recommended',
@@ -55,7 +50,6 @@ module.exports = {
       'parseInt',
     ],
     'no-return-await': 'error',
-    'prefer-arrow-callback': 'error',
     quotes: [
       'error',
       'single',
@@ -104,3 +98,6 @@ module.exports = {
     },
   ],
 };
+
+// eslint-disable-next-line no-undef
+module.exports = eslintConfig;
