@@ -1,4 +1,4 @@
-# bjerk/eslint-config
+# @bjerk/eslint-config
 
 A reusable Eslint config built by and maintained by Bjerk.
 
