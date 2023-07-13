@@ -48,6 +48,7 @@
   "publishConfig": {
     "access": "public"
   },
+  "packageManager": "pnpm@8.6.7",
   "peerDevDependencies": [
     "@typescript-eslint/eslint-plugin",
     "@typescript-eslint/parser",
