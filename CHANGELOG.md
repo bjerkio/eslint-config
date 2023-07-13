@@ -10,7 +10,18 @@ With v5 we are introducing typed checked lining and stylistics config, as typesc
 - [@bjerk/eslint-config/import](https://github.com/bjerkio/eslint-config/blob/main/import.js) – import-related rules
 - [@bjerk/eslint-config/typescript](https://github.com/bjerkio/eslint-config/blob/main/typescript.js) – typescript-related rules
 
-You can import only the ones you want if that is your style. 
+You can import only the ones you want if that is your style.
+
+To make v5 work, you have to add `parserOptions`:
+
+```json
+{
+  "extends": "@bjerk/eslint-config",
+  "parserOptions": {
+    "project": true
+  }
+}
+```
 
 ### ⚠ BREAKING CHANGES
 
