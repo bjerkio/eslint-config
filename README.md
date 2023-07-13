@@ -25,7 +25,7 @@ pnpm config set auto-install-peers true --location project
 To make all this config work, you only need to add this to your Eslint
 configuration:
 
-```json
+```javascript
 module.exports = {
   extends: "@bjerk/eslint-config",
   parserOptions: {
