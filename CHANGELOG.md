@@ -1,5 +1,23 @@
 # Changelog
 
+## [5.0.0](https://github.com/bjerkio/eslint-config/compare/v4.2.0...v5.0.0) (2023-07-13)
+
+
+### ⚠ BREAKING CHANGES
+
+* use typed checked linting and stylistic config ([#247](https://github.com/bjerkio/eslint-config/issues/247))
+* split into separate configs ([#246](https://github.com/bjerkio/eslint-config/issues/246))
+
+### Features
+
+* remove unused dependencies ([daec2b3](https://github.com/bjerkio/eslint-config/commit/daec2b34bc096e3d5c69ee7cb6614f04649bd007))
+* use typed checked linting and stylistic config ([#247](https://github.com/bjerkio/eslint-config/issues/247)) ([b461fd6](https://github.com/bjerkio/eslint-config/commit/b461fd62c52038ea2bf3f80623651a956f9255d2))
+
+
+### Code Refactoring
+
+* split into separate configs ([#246](https://github.com/bjerkio/eslint-config/issues/246)) ([2968db1](https://github.com/bjerkio/eslint-config/commit/2968db1d0de41cbfa58102dcea90fe61a60e4458))
+
 ## [4.2.0](https://github.com/bjerkio/eslint-config/compare/v4.1.0...v4.2.0) (2023-07-06)
 
 
