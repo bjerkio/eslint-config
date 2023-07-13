@@ -2,6 +2,15 @@
 
 ## [5.0.0](https://github.com/bjerkio/eslint-config/compare/v4.2.0...v5.0.0) (2023-07-13)
 
+v5 is yet a step towards making our code more readable and maintainable!
+
+With v5 we are introducing typed checked lining and stylistics config, as typescript-eslint recommends. To further make it easier for contributors and consumers of this eslint config, the separate topics are split into:
+
+- [@bjerk/eslint-config/base](https://github.com/bjerkio/eslint-config/blob/main/base.js) – base configuration, i.e. javascript rules
+- [@bjerk/eslint-config/import](https://github.com/bjerkio/eslint-config/blob/main/import.js) – import-related rules
+- [@bjerk/eslint-config/typescript](https://github.com/bjerkio/eslint-config/blob/main/typescript.js) – typescript-related rules
+
+You can import only the ones you want if that is your style. 
 
 ### ⚠ BREAKING CHANGES
 
