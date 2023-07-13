@@ -5,6 +5,11 @@
   "author": "Bjerk AS",
   "repository": "github.com:bjerkio/eslint-config",
   "main": "index.js",
+  "files": [
+    "base.js",
+    "import.js",
+    "typescript.js"
+  ],
   "scripts": {
     "format": "prettier --write .",
     "lint": "eslint -c index.js --ext .ts,.tsx,.js,.jsx ."
