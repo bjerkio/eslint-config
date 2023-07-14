@@ -42,6 +42,21 @@ const eslintConfigTypescript = {
 
     '@typescript-eslint/no-unused-expressions': 'error',
     '@typescript-eslint/prefer-ts-expect-error': 'error',
+
+    /**
+     * By default, the recommended-type-checked includes
+     * the require-await rule. This rule disallows async
+     * functions which have no await expression.
+     * 
+     * This rule is disabled because it is not compatible
+     * with Fastify plugins, which are async functions
+     * that do not await anything.
+     * 
+     * Sometimes it's necessary to make asynchronous function
+     * calls without awaiting them. For example, when making
+     * a function that is later going to need to use await.
+     */
+    '@typescript-eslint/require-await': 'off',
   },
   overrides: [
     {
