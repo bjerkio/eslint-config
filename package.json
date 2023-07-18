@@ -14,31 +14,31 @@
     "format": "prettier --write .",
     "lint": "eslint -c index.js --ext .ts,.tsx,.js,.jsx ."
   },
-  "peerDependencies": {
+  "dependencies": {
     "@typescript-eslint/eslint-plugin": "^6.0.0",
     "@typescript-eslint/parser": "^6.0.0",
-    "eslint": "^7.32.0 || ^8.2.0",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-eslint-comments": "^3.2.0",
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-unicorn": "^47.0.0"
   },
+  "peerDependencies": {
+    "eslint": "^7.32.0 || ^8.2.0",
+    "prettier": "^3.0.0",
+    "typescript": "^5.1.6"
+  },
   "peerDependenciesMeta": {
     "prettier": {
+      "optional": true
+    },
+    "typescript": {
       "optional": true
     }
   },
   "devDependencies": {
     "@simenandre/prettier": "^5.0.0",
-    "@typescript-eslint/eslint-plugin": "^6.0.0",
-    "@typescript-eslint/parser": "^6.0.0",
     "eslint": "^8.38.0",
-    "eslint-config-prettier": "^8.8.0",
-    "eslint-plugin-eslint-comments": "^3.2.0",
-    "eslint-plugin-import": "^2.27.5",
-    "eslint-plugin-promise": "^6.1.1",
-    "eslint-plugin-unicorn": "^47.0.0",
     "prettier": "^3.0.0",
     "typescript": "^5.1.6"
   },
@@ -50,16 +50,9 @@
   },
   "packageManager": "pnpm@8.6.7",
   "peerDevDependencies": [
-    "@typescript-eslint/eslint-plugin",
-    "@typescript-eslint/parser",
     "eslint",
-    "eslint-config-prettier",
-    "eslint-plugin-eslint-comments",
-    "eslint-plugin-import",
-    "eslint-plugin-prettier",
-    "eslint-plugin-promise",
-    "eslint-plugin-unicorn",
-    "prettier"
+    "prettier",
+    "typescript"
   ],
   "prettier": "@simenandre/prettier",
   "volta": {
