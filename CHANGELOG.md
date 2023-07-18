@@ -1,5 +1,17 @@
 # Changelog
 
+## [5.2.0](https://github.com/bjerkio/eslint-config/compare/v5.1.0...v5.2.0) (2023-07-18)
+
+
+### Features
+
+* remove most peer dependencies ([#256](https://github.com/bjerkio/eslint-config/issues/256)) ([a021796](https://github.com/bjerkio/eslint-config/commit/a0217968c51df34e1c0287e93b37934eb1ea493a))
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-unicorn to v48 ([#253](https://github.com/bjerkio/eslint-config/issues/253)) ([73fe733](https://github.com/bjerkio/eslint-config/commit/73fe7335b156c573fff20cecc454f57d4c994292))
+
 ## [5.0.0](https://github.com/bjerkio/eslint-config/compare/v4.2.0...v5.0.0) (2023-07-13)
 
 v5 is yet a step towards making our code more readable and maintainable!
