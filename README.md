@@ -3,36 +3,31 @@
 A reusable Eslint config built by and maintained by Bjerk.
 
 ```shell
-yarn add @bjerk/eslint-config
+yarn add @bjerk/eslint-config eslint
 ```
 
-If you want help installing the bunch of peerDependencies for this package,
-consider using this:
+## Usage
 
-```shell
-npx check-peer-dependencies
-```
-
-Or, if you're using [pnpm], you can make it install peer dependencies
-automatically:
-
-```shell
-pnpm config set auto-install-peers true --location project
-```
-
-[pnpm]: https://pnpm.io/
-
-To make all this config work, you only need to add this to your Eslint
-configuration:
+To use this config, you'll need to add an `.eslintrc.js` file to your project.
+This file should export an object with the following structure:
 
 ```javascript
 module.exports = {
-  extends: "@bjerk/eslint-config",
+  extends: '@bjerk/eslint-config',
+};
+```
+
+To make the configuration work with Typescript, you'll need to add the
+`parserOptions` as follows:
+
+```javascript
+module.exports = {
+  extends: '@bjerk/eslint-config',
   parserOptions: {
     project: true,
     tsconfigRootDir: __dirname,
   },
-}
+};
 ```
 
 You can also use parts of this configuration if you want to. For example, if you
