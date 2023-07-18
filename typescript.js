@@ -1,3 +1,4 @@
+/** @type {import('@typescript-eslint/experimental-utils').TSESLint.Linter.Config} */
 const eslintConfigTypescript = {
   extends: [
     'eslint:recommended',
