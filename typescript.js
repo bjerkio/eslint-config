@@ -1,3 +1,5 @@
+require('@rushstack/eslint-patch/modern-module-resolution');
+
 /** @type {import('@typescript-eslint/experimental-utils').TSESLint.Linter.Config} */
 const eslintConfigTypescript = {
   extends: [

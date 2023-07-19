@@ -1,3 +1,5 @@
+require('@rushstack/eslint-patch/modern-module-resolution');
+
 const eslintConfigBasic = {
   extends: [
     'eslint:recommended',
