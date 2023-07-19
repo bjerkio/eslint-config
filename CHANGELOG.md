@@ -1,5 +1,13 @@
 # Changelog
 
+## [5.3.0](https://github.com/bjerkio/eslint-config/compare/v5.2.0...v5.3.0) (2023-07-19)
+
+
+### Features
+
+* bump eslint to ^8.45.0 ([2e2d467](https://github.com/bjerkio/eslint-config/commit/2e2d4670cdd48712e3a239a86d48528315df7d6a))
+* use modern module resolution ([adc1c91](https://github.com/bjerkio/eslint-config/commit/adc1c913c38b51ce53c906f83ed296cff469c480))
+
 ## [5.2.0](https://github.com/bjerkio/eslint-config/compare/v5.1.0...v5.2.0) (2023-07-18)
 
 
