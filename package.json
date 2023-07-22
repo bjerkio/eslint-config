@@ -25,17 +25,7 @@
     "eslint-plugin-unicorn": "^48.0.0"
   },
   "peerDependencies": {
-    "eslint": "^8.45.0",
-    "prettier": "^3.0.0",
-    "typescript": "^5.1.6"
-  },
-  "peerDependenciesMeta": {
-    "prettier": {
-      "optional": true
-    },
-    "typescript": {
-      "optional": true
-    }
+    "eslint": "^8.45.0"
   },
   "devDependencies": {
     "@simenandre/prettier": "^5.0.0",
@@ -52,9 +42,7 @@
   },
   "packageManager": "pnpm@8.6.9",
   "peerDevDependencies": [
-    "eslint",
-    "prettier",
-    "typescript"
+    "eslint"
   ],
   "prettier": "@simenandre/prettier",
   "volta": {
