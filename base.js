@@ -10,6 +10,7 @@ const eslintConfigBasic = {
     'plugin:promise/recommended',
   ],
   plugins: ['unicorn'],
+  ignorePatterns: ['dist'],
   rules: {
     /**
      * Enforce consistent brace style for all control statements
