@@ -3,7 +3,7 @@
   "version": "5.3.1",
   "license": "Apache-2.0",
   "author": "Bjerk AS",
-  "repository": "github.com:bjerkio/eslint-config",
+  "repository": "github:bjerkio/eslint-config",
   "main": "index.js",
   "files": [
     "base.js",
