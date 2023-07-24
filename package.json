@@ -51,7 +51,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "packageManager": "pnpm@8.6.9",
+  "packageManager": "pnpm@8.6.10",
   "peerDevDependencies": [
     "eslint",
     "prettier",
