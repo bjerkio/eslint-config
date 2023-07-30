@@ -1,5 +1,17 @@
 # Changelog
 
+## [5.4.0](https://github.com/bjerkio/eslint-config/compare/5.3.1...v5.4.0) (2023-07-24)
+
+
+### Features
+
+* add ignorePatterns to base config ([#260](https://github.com/bjerkio/eslint-config/issues/260)) ([0f86df3](https://github.com/bjerkio/eslint-config/commit/0f86df34b9c3e4700bab383884a9aee4f8aa2533))
+
+
+### Bug Fixes
+
+* do not depend on prettier and typescript ([#261](https://github.com/bjerkio/eslint-config/issues/261)) ([824cbbd](https://github.com/bjerkio/eslint-config/commit/824cbbdf98c7c94b1d4bb729317e755e61b54fea))
+
 ## [5.3.0](https://github.com/bjerkio/eslint-config/compare/v5.2.0...v5.3.0) (2023-07-19)
 
 
