@@ -25,8 +25,6 @@ const eslintConfigImport = {
         ignoreDeclarationSort: true,
       },
     ],
-    'import/extensions': ['error', 'always', { ignorePackages: true }],
-    'import/no-commonjs': 'error',
     'import/no-useless-path-segments': [
       'error',
       {

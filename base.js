@@ -77,24 +77,6 @@ const eslintConfigBasic = {
     ],
 
     'eslint-comments/no-unused-disable': 'error',
-
-    /**
-     * Prefer using ESM over legacy CommonJS modules
-     * @see https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-module.md
-     */
-    'unicorn/prefer-module': 'error',
-
-    /**
-     * Prefer using the `node:` protocol when importing Node.js builtin modules
-     * @see https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-node-protocol.md
-     */
-    'unicorn/prefer-node-protocol': 'error',
-
-    /**
-     * Prefer top-level await over top-level promises and async function calls
-     * @see https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-top-level-await.md
-     */
-    'unicorn/prefer-top-level-await': 'error',
   },
   overrides: [
     {
