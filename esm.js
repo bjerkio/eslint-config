@@ -3,7 +3,7 @@ require('@rushstack/eslint-patch/modern-module-resolution');
 /**
  * @type {import('eslint').Linter.Config}
  **/
-const eslintConfigBasic = {
+const eslintConfigESM = {
   plugins: ['unicorn', 'import'],
   rules: {
     /**
@@ -30,4 +30,4 @@ const eslintConfigBasic = {
 };
 
 // eslint-disable-next-line no-undef
-module.exports = eslintConfigBasic;
+module.exports = eslintConfigESM;
