@@ -45,6 +45,7 @@ These are the available configs:
 - `@bjerk/eslint-config/base`
 - `@bjerk/eslint-config/import`
 - `@bjerk/eslint-config/typescript`
+- `@bjerk/eslint-config/esm`
 
 **Note**: The main `@bjerk/eslint-config` config includes all the others, but
 also `prettier` (and `eslint-config-prettier`).

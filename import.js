@@ -1,5 +1,8 @@
 require('@rushstack/eslint-patch/modern-module-resolution');
 
+/**
+ * @type {import('eslint').Linter.Config}
+ **/
 const eslintConfigImport = {
   plugins: ['import'],
   rules: {
@@ -20,6 +23,12 @@ const eslintConfigImport = {
       'error',
       {
         ignoreDeclarationSort: true,
+      },
+    ],
+    'import/no-useless-path-segments': [
+      'error',
+      {
+        noUselessIndex: true,
       },
     ],
   },
