@@ -1,5 +1,21 @@
 # Changelog
 
+## [6.0.0](https://github.com/bjerkio/eslint-config/compare/v5.4.0...v6.0.0) (2023-08-09)
+
+
+### ⚠ BREAKING CHANGES
+
+* improve esm rules ([#270](https://github.com/bjerkio/eslint-config/issues/270))
+
+### Features
+
+* improve esm rules ([#270](https://github.com/bjerkio/eslint-config/issues/270)) ([00b32f2](https://github.com/bjerkio/eslint-config/commit/00b32f2facdf2b48718d06c8f141c7080808111d))
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-config-prettier to v9 ([#267](https://github.com/bjerkio/eslint-config/issues/267)) ([790581d](https://github.com/bjerkio/eslint-config/commit/790581d8b7b8ed184b77f4d206111ab2615fa8ab))
+
 ## [5.4.0](https://github.com/bjerkio/eslint-config/compare/5.3.1...v5.4.0) (2023-07-24)
 
 
