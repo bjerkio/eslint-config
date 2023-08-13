@@ -1,5 +1,12 @@
 # Changelog
 
+## [6.0.1](https://github.com/bjerkio/eslint-config/compare/v6.0.0...v6.0.1) (2023-08-13)
+
+
+### Bug Fixes
+
+* add missing file to package ([d4030ac](https://github.com/bjerkio/eslint-config/commit/d4030ac0c34abd6b4193bfb7bf3e470a76576fd7))
+
 ## [6.0.0](https://github.com/bjerkio/eslint-config/compare/v5.4.0...v6.0.0) (2023-08-09)
 
 
