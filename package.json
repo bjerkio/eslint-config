@@ -42,7 +42,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "packageManager": "pnpm@8.9.2",
+  "packageManager": "pnpm@8.10.0",
   "peerDevDependencies": [
     "eslint"
   ],
