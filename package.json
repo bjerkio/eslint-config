@@ -48,6 +48,6 @@
   ],
   "prettier": "@simenandre/prettier",
   "volta": {
-    "node": "18.17.0"
+    "node": "20.18.0"
   }
 }
